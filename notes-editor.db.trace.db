@@ -1,0 +1,4 @@
+2020-06-09 12:05:25 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "NOTE_GROUP" nie istnieje
+Table "NOTE_GROUP" not found; SQL statement:
+alter table notes add foreign key (note_groups_id) references note_group(id) [42102-200]
